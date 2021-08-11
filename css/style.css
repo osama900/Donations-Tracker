@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/back.jpeg");
+}
+header {
+  height: 100px;
+  text-align: center;
+  color: blanchedalmond;
+  background-color: #3d3d3d;
+}
+header h1 {
+  font-family: "Noto Sans", sans-serif;
+  color: #f5f5f5;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+label {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+input,
+select {
+  width: 80%;
+}
+#sub {
+  color: white;
+  background-color: #3d3d3d;
+}
+#leftSection {
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  margin: 5%;
+  padding: 5%;
+  background-color: rgba(114, 104, 211, 0.8);
+}
+#rightSection {
+  text-align: center;
+  display: inline-block;
+  float: right;
+  width: 50%;
+  background-color: rgba(114, 104, 211, 0.8);
+  margin: 5%;
+  padding: 5%;
+}
+#tableData {
+  text-align: center;
+  border: 1px, solid, black;
+}
+#clearData {
+  width: auto;
+}
+#DonNameTH {
+  background-color: #3d3d3d;
+
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  width: 50%;
+  border: 10px, solid, black;
+  text-align: center;
+}
+#DonAmmTH {
+  background-color: #3d3d3d;
+
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  width: 35%;
+  border: 10px, solid, black;
+  text-align: center;
+}
+#DonAgeTH {
+  background-color: #3d3d3d;
+
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  width: 15%;
+  border: 10px, solid, black;
+  text-align: center;
+}
